@@ -1,0 +1,12 @@
+a,b,c = list(map(float,input().split()))
+pi = 3.14159
+triangulo=((a*c)*0.5)
+circulo=((c*c)*pi)
+trapezio=(((a+b)/2.0)*c)
+quadrado=(b*b)
+retangulo=(a*b)
+print("TRIANGULO: %.3lf"%triangulo)
+print("CIRCULO: %.3f"%circulo)
+print("TRAPEZIO: %.3f"%trapezio)
+print("QUADRADO: %.3f"%quadrado)
+print("RETANGULO: %.3f"%retangulo)

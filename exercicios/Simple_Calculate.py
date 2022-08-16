@@ -1,0 +1,5 @@
+a = int(input())
+b = int(input())
+c = float(input())
+soma =(b*c)
+print("VALOR A PAGAR: R$%0.2f"%soma)

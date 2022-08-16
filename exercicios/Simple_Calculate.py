@@ -1,5 +1,6 @@
-a = int(input())
-b = int(input())
-c = float(input())
-soma =(b*c)
-print("VALOR A PAGAR: R$%0.2f"%soma)
+linha1 = input().split(" ")
+linha2 = input().split(" ")
+cod1, qtde1, valor1 = linha1
+cod2, qtde2, valor2 = linha2
+soma = (int(qtde1) * float(valor1))+(int(qtde2) * float(valor2))
+print("VALOR A PAGAR: R$ %0.2f"%soma) 

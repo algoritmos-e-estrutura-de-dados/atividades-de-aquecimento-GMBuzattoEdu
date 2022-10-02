@@ -1,0 +1,5 @@
+nome = input()
+a = float(input())
+b = float(input())
+soma = a+(b*0.15)
+print("TOTAL = R$ %0.2f"%soma)
